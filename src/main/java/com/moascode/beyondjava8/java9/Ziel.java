@@ -1,6 +1,6 @@
 package com.moascode.beyondjava8.java9;
 
-public class Main {
+public class Ziel {
     public static void main(String ... args) {
         System.out.println("--------------------Immutable Collection--------------------");
         ImmutableCollection.iList();
@@ -10,5 +10,6 @@ public class Main {
         StreamBreak.skipLimit();
         StreamBreak.takeWhile();
         StreamBreak.dropWhile();
+        StreamBreak.ofNullable();
     }
 }
